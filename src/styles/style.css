@@ -43,3 +43,52 @@ h6 {
     isolation: isolate;
 }
 /*#endregion*/
+
+:root {
+    --blue: #08D9D6;
+    --black: #252A34;
+    --pink: #FF2E63;
+    --white: #EAEAEA;
+}
+
+body {
+    background: var(--blue);
+}
+
+header {
+    background: var(--pink);
+    padding: 0.5rem;
+    text-align: center;
+    height: 10%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+form {
+    align-self: center;
+    padding: 20px;
+}
+
+div.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+div.dayContainer {
+    border: 2px solid red;
+    padding: 1rem;
+}
+
+#divLocation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-style: italic;
+}
